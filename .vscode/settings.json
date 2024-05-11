@@ -2,5 +2,67 @@
     "search.exclude": {
         "**/target": true
     },
-    "lldb.verboseLogging": true
+    "lldb.verboseLogging": true,
+    "vsintellicode.modify.editor.suggestSelection": "enabled",
+    "rust-analyzer.hover.documentation.enable": true,
+    "rust-analyzer.hover.actions.enable":true,
+    "rust-analyzer.hover.links.enable": true,
+    "rust-analyzer.cargo.sysroot": "discover",
+    "rust-mod-generator.addModDeclaration": true,
+    "rust-analyzer.hover.documentation.keywords.enable": true,
+    "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
+    "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+    "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
+    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+    "rust-analyzer.completion.autoimport.enable":true,
+    "rust-analyzer.check.workspace": true,
+    "rust-analyzer.imports.prefix":"plain",
+    "rust-analyzer.imports.granularity.group": "module",
+    "[rust]": {
+        "editor.hover.enabled": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.guides.highlightActiveBracketPair": true,
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.suggestSelection": "first",
+        "editor.renderWhitespace": "all",
+        "editor.fontSize": 19,
+        "editor.fontLigatures": false,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.inlayHints.enabled":"on",
+    },
+    "lldb.launch.breakpointMode": "file",
+    "yaml.schemas": {
+        "url": "globPattern",
+        "Kubernetes": "globPattern"
+    },
+    "yaml.completion": true,
+    "yaml.yamlVersion": "1.2",
+    "yaml.format.enable": true,
+    "yaml.hover": true,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "keep",
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultFormatter": "kennylong.kubernetes-yaml-formatter",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "cSpell.words": [
+        "appenders",
+        "chrono",
+        "devcontainers",
+        "mensaje",
+        "rollingfile",
+        "rustc",
+        "rustls",
+        "structopt",
+        "utilitys"
+    ]
 }

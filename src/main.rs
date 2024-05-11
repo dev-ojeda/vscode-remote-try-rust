@@ -1,9 +1,6 @@
-/*--------------------------------------------------------------------------------------------------------------
- * Copyright (c) Microsoft Corporation. All rights reserved.
- * Licensed under the MIT License. See https://go.microsoft.com/fwlink/?linkid=2090316 for license information.
- *-------------------------------------------------------------------------------------------------------------*/
+pub mod utilitys;
 
-fn main() {
-    let name = "VS Code Remote - Containers";
-    println!("Hello, {}!", name);
+pub fn main() {
+    let mensaje = utilitys::utilitys::get_services();
+    println!("MSG: {}", mensaje);
 }
