@@ -13,7 +13,7 @@
     "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
     "rust-analyzer.inlayHints.bindingModeHints.enable": true,
     "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
-    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+    "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "with_block",
     "rust-analyzer.completion.autoimport.enable":true,
     "rust-analyzer.check.workspace": true,
     "rust-analyzer.imports.prefix":"plain",
@@ -21,7 +21,7 @@
     "[rust]": {
         "editor.hover.enabled": true,
         "editor.formatOnSave": true,
-        "editor.formatOnType": true,
+        "editor.formatOnType": false,
         "editor.guides.highlightActiveBracketPair": true,
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
         "editor.suggestSelection": "first",
@@ -29,7 +29,6 @@
         "editor.fontSize": 19,
         "editor.fontLigatures": false,
         "editor.wordWrap": "wordWrapColumn",
-        "editor.inlayHints.enabled":"on",
     },
     "lldb.launch.breakpointMode": "file",
     "yaml.schemas": {
@@ -54,6 +53,7 @@
             "strings": true
         }
     },
+    "cSpell.enabled": false,
     "cSpell.words": [
         "appenders",
         "chrono",

@@ -10,8 +10,13 @@ hyper-util = { version = "0.1", features = ["full"] }
 tower = { version = "0.4", features = ["full"] }
 http-body-util = "0.1"
 futures-util = "0.3.30"
-anyhow = "1.0"
 home = "0.5.9"
+http = "1.0"
+bytes = "1"
+thiserror = "1"
+prelude = "0.2.1"
+anyhow = "1.0"
+structopt = "0.3"
 
 [dev-dependencies]
 anyhow = "1"
